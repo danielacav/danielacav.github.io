@@ -19,6 +19,10 @@ ul {
     list-style-type: square;
 }
 
+li:nth-child(odd) {
+color:darkslategray;
+}
+
 a:link {
     text-decoration: none;
     background-color: gainsboro;
