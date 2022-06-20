@@ -6,3 +6,7 @@ body {
 header, footer {
     background-color: blanchedalmond;
 }
+
+.site-title{
+    color: darkslategray;
+}
