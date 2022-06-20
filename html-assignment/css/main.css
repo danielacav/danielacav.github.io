@@ -8,7 +8,7 @@ header, footer {
 }
 
 .site-title{
-    color: darkslategray;
+    color:cornflowerblue;
 }
 
 #my-image {
@@ -20,7 +20,7 @@ ul {
 }
 
 li:nth-child(odd) {
-color:darkslategray;
+color:cornflowerblue;
 }
 
 a:link {
