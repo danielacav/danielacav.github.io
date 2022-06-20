@@ -24,3 +24,10 @@ a:link {
     background-color: gainsboro;
     border-color: blanchedalmond;
 }
+
+a:hover {
+    text-decoration: none;
+    background-color: black;
+    border-color: black;
+    color: blanchedalmond;
+}
