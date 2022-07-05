@@ -63,7 +63,27 @@ a {
 
 .profile{
     float: left;
-    width: 350px;
-    height: 350px;
+    width: 30vh;
+    height: 30vh;
     margin-right: 2rem;
+}
+
+.form {
+    display: block;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+input[type=text], [type=email] {
+    width: 100%;
+    margin: 0.75rem 0;
+}
+
+input[type=submit]{
+    display: block;
+    padding: 1rem;
+    margin: 0.75rem 0;
+    text-transform: uppercase;
 }
