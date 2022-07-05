@@ -39,7 +39,7 @@ nav {
 }
 
 a {
-    display: inline-block;
+    float: left;
     padding: 1rem;
     background-color:#d3ebe8;
     text-align: center;
@@ -48,7 +48,7 @@ a {
     text-transform: uppercase;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:black;
-    width: 33%;
+    width: 33.33%;
 }
 
 .profile{
