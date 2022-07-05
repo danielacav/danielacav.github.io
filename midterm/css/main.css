@@ -1,0 +1,25 @@
+body { 
+    background-color: #aad4cf;
+}
+
+.container {
+    position: relative;
+    margin: 2rem;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 4rem;
+    position: absolute;
+    margin: 2rem;
+    bottom: 0;    
+    text-align: center;
+    width: 100%;
+    
+}
+
+image {
+    width: 100%;
+}
