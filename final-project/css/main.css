@@ -57,3 +57,64 @@ html {
   }
 
 
+
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    margin: 1rem;
+}
+
+.logo {
+    background-color: #c78c06;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header {
+    background: #222;
+}
+
+nav {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.active {
+    background-color: #c78c06;
+    color: #222;
+}
+
+nav a {
+    text-decoration: none;
+    color: #c78c06;
+    font-size: 0.75rem;
+    padding: 0.75rem;
+}
+
+.searchbar {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    min-height: 4rem;
+}
+
+.searchbar input{
+    flex-grow: 1;
+}
+
+.searchbar button {
+    margin-left: auto;
+    border: 1px solid;
+    border-color: #c78c06;
+}
+
+header button {
+    background-color: #222;
+    color: #c78c06;
+    border: 1px;
+    border: #C78C06;
+}
