@@ -6,25 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/final-project/css/main.css">
     <title>MTM6130 Final - danielacav </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d916f9d3d1.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <div>
+        <div class="logo">
             <img src="/final-project/images/logo.png" alt="Logo">
         </div>
         <!-- Added a class of wrapper to allow fullpage backgrounds but without disrupting the texts and main items -->
-        <nav class="wrapper">
-            <a href="#">Home</a>
+        <nav>
+            <a class="active" href="#">Home</a>
             <a href="#">About us</a>
             <a href="#">Services</a>
             <a href="#">Team</a>
             <a href="#">Contact</a>
-            <div class="searchbar">
-                <form> 
+
+            <div>
+                <form class="searchbar"> 
                     <input type="search" placeholder="Search">
                     <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                  </form>
+                </form>
             </div>
         </nav>
     </header>
