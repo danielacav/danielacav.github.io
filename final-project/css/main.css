@@ -244,3 +244,24 @@ main {
     font-size: 0.75rem;
 }
 
+/*Contact form styling*/
+
+.contact {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact button {
+    color: #c78c06;
+    display: flex;
+    flex-wrap: wrap;
+    width: min-content;
+    padding: 0.5rem;
+}
+
+.contact label {
+    font-size: 0.75rem;
+}
+
