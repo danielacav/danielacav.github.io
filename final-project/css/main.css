@@ -265,3 +265,24 @@ main {
     font-size: 0.75rem;
 }
 
+
+/*Table styling*/
+table {
+    width: 100%;
+}
+
+table * {
+    border: solid 1px #222;
+    padding: 1rem;
+    font-size: 0.75rem;
+}
+
+th {
+    background-color: #ffe6ac;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
