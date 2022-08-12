@@ -231,3 +231,16 @@ main {
 .vision button {
     border: 1px solid #c78c06;
 }
+
+
+/*Our team Styling*/
+
+.name {
+    border-bottom:2px solid #c78c06;
+}
+
+.charge {
+    font-weight: 800;
+    font-size: 0.75rem;
+}
+
