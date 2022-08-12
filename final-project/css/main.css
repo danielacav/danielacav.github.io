@@ -202,3 +202,32 @@ main {
     font-weight: 600;
 }
 
+
+/*Our services styling*/
+
+.about {
+    background-color: #ffe6ac;
+    color: #222;
+}
+
+.info-box {
+    width: 100%;
+    background-color: #ffe6ac;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.vision {
+    background-image: url(/final-project/images/vision.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 0;
+}
+
+.vision * {
+    color: white;
+}
+
+.vision button {
+    border: 1px solid #c78c06;
+}
