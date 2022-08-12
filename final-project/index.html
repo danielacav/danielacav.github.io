@@ -44,7 +44,7 @@
         </div>
     </main>
 
-    <section>
+    <section class="about">
         <div class="wrapper">
             <img src="/final-project/images/about-us.jpg" alt="About us">
             <h2>About us</h2>
@@ -58,7 +58,7 @@
             <h2>Our services</h2>
             <div>
                 <img src="/final-project/images/digital.jpg" alt="Digital transformation">
-                <div>
+                <div class="info-box">
                     <h3>Digital transformation</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, dignissimos atque facere quod eius consequatur saepe sapiente quibusdam facilis ratione illo voluptatum aperiam magnam iste voluptatibus. Dolore delectus quibusdam totam?</p>
                     <button> Digital plans <i class="fa-solid fa-caret-right"></i></button>
@@ -67,7 +67,7 @@
 
             <div>
                 <img src="/final-project/images/marketing.jpg" alt="Marketing">
-                <div>
+                <div class="info-box">
                     <h3>Marketing</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, dignissimos atque facere quod eius consequatur saepe sapiente quibusdam facilis ratione illo voluptatum aperiam magnam iste voluptatibus. Dolore delectus quibusdam totam?</p>
                     <button> Marketing plans <i class="fa-solid fa-caret-right"></i></button>
@@ -76,7 +76,7 @@
 
             <div>
                 <img src="/final-project/images/video.jpg" alt="Video Production">
-                <div>
+                <div class="info-box">
                     <h3>Video Production</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, dignissimos atque facere quod eius consequatur saepe sapiente quibusdam facilis ratione illo voluptatum aperiam magnam iste voluptatibus. Dolore delectus quibusdam totam?</p>
                     <button> Video plans <i class="fa-solid fa-caret-right"></i></button>
@@ -85,7 +85,7 @@
 
             <div>
                 <img src="/final-project/images/web.jpg" alt="Web development">
-                <div>
+                <div class="info-box">
                     <h3>Web development</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, dignissimos atque facere quod eius consequatur saepe sapiente quibusdam facilis ratione illo voluptatum aperiam magnam iste voluptatibus. Dolore delectus quibusdam totam?</p>
                     <button> Web plans <i class="fa-solid fa-caret-right"></i></button>
@@ -94,7 +94,7 @@
 
             <div>
                 <img src="/final-project/images/print.jpg" alt="Print">
-                <div>
+                <div class="info-box">
                     <h3>Print</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, dignissimos atque facere quod eius consequatur saepe sapiente quibusdam facilis ratione illo voluptatum aperiam magnam iste voluptatibus. Dolore delectus quibusdam totam?</p>
                     <button> Print plans <i class="fa-solid fa-caret-right"></i></button>
@@ -104,10 +104,13 @@
     </section>
 
     <section>
-        <div class="wrapper">
-            <h3>Our vision</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione soluta quos distinctio cupiditate officiis, eos cum accusamus commodi perferendis repellendus sunt molestiae facere praesentium impedit reprehenderit. Repellat molestias repudiandae error!</p>
-            <button> Learn more <i class="fa-solid fa-caret-right"></i></button>
+        <div class="vision">
+            <div class="wrapper">
+                <h3>Our vision</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione soluta quos distinctio cupiditate officiis, eos cum accusamus commodi perferendis repellendus sunt molestiae facere praesentium impedit reprehenderit. Repellat molestias repudiandae error!</p>
+                <button> Learn more <i class="fa-solid fa-caret-right"></i></button>
+            </div>
+
         </div>
     </section>
 
@@ -117,17 +120,21 @@
             <div>
                 <img src="/final-project/images/john.jpg" alt="John Doe">
                 <!--Texts for each team member go in independent div to later switch its direction in other devices-->
-                <div>
-                    <h3>John Doe</h3>
-                    <p> <strong>CEO & co-owner</strong> </p>
+                <div class="info-box">
+                    <div class="name">
+                        <h3>John Doe</h3>
+                        <p class="charge">CEO & co-owner</p>
+                    </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, dignissimos atque facere quod eius consequatur saepe sapiente quibusdam facilis ratione illo voluptatum aperiam magnam iste voluptatibus. Dolore delectus quibusdam totam?</p>
                 </div>
             </div>
             <div>
                 <img src="/final-project/images/bob.jpg" alt="Bob Rite">
-                <div>
-                    <h3>Bob Rite</h3>
-                    <p> <strong>CFO & co-owner</strong> </p>
+                <div class="info-box">
+                    <div class="name">
+                        <h3>Bob Rite</h3>
+                        <p class="charge"> CFO & co-owner </p>
+                    </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, dignissimos atque facere quod eius consequatur saepe sapiente quibusdam facilis ratione illo voluptatum aperiam magnam iste voluptatibus. Dolore delectus quibusdam totam?</p>
                 </div>
             </div>
@@ -138,7 +145,7 @@
         <div class="wrapper">
             <!--Inside this wrapper, included two div elements to later display side by side in larger devices-->
             <h2>Contact us</h2>
-            <div>
+            <div class="contact">
                 <h3>Send us a message</h3>
                 <label for="name">Full name</label>
                 <input type="text" name="contactname" id="name">
