@@ -332,4 +332,21 @@ Added a display of flex to divs used to build header.*/
         align-items: center;
         max-width: 1200px;
     }
+
+    /* About section - large devices. 
+    Added a flex display */
+
+    .about .wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+    }
+    .about .wrapper img {
+        width: 50%;
+        }
+
+    .about .wrapper div {
+        margin-left: 1rem;
+    }
+
 }
