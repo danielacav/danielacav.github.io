@@ -349,4 +349,25 @@ Added a display of flex to divs used to build header.*/
         margin-left: 1rem;
     }
 
+    /* Services styling- large devices. 
+    Added a grid */
+
+    .service {
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        gap: 0.5rem; 
+        grid-template-areas:
+        "b1 b1 b1 b2 b2 b2"
+        "b3 b3 b4 b4 b5 b5";   
+    }
+
+    .service :nth-child(1) {grid-area: b1;}
+    .service :nth-child(2) {grid-area: b2;}
+    .service :nth-child(3) {grid-area: b3;}
+    .service :nth-child(4) {grid-area: b4;}
+    .service :nth-child(5) {grid-area: b5;}
+
+    .info-box {
+        margin-bottom: 0;
+    }
 }
