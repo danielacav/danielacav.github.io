@@ -305,3 +305,31 @@ footer {
 footer * {
     color: #c78c06;
 }
+
+/*Breakpoint styling for larger devices*/
+
+@media screen and (min-width:760px){
+    
+    h3{
+        font-size: 1.25rem;
+    }
+
+/* Header styling- large devices.
+Added a display of flex to divs used to build header.*/
+    header * {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .logo {
+        height: 4rem;
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+    }
+}
