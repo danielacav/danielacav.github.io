@@ -370,4 +370,15 @@ Added a display of flex to divs used to build header.*/
     .info-box {
         margin-bottom: 0;
     }
+
+    /* Our team - large device. Assigned a grid to reorder items*/
+
+    .team {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+        
+    .team :nth-child(3) {
+        order:1;
+    }
 }
