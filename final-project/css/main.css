@@ -381,4 +381,23 @@ Added a display of flex to divs used to build header.*/
     .team :nth-child(3) {
         order:1;
     }
+
+    /* Contact us - large device
+    Used a grid to reorganize the elements.*/
+
+    .details {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap:0.5rem;
+        grid-template-areas:
+        "d1 d3"
+        "d2 d2";
+    }
+
+    .details :nth-child(1) {grid-area: d1;}
+    .details :nth-child(2) {grid-area: d2;}
+    .details :nth-child(3) {
+        grid-area: d3;
+    }
 }
